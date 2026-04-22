@@ -11,3 +11,50 @@ Graph algorithms
 Dijkstra's algorithm
 Prim's algorithm
 
+When interviewer asks why heap?, answer:
+
+For Top K:
+
+“Heap lets us maintain the best k candidates efficiently in O(log k).”
+
+For scheduling:
+
+“Heap gives quick access to the highest priority task.”
+
+For streams:
+
+“Heap supports dynamic insertions while preserving order.”
+
+FAANG Interview Heap Patterns
+
+Recognize these keywords:
+
+If problem says:
+“Top K”
+
+Use Min Heap
+
+Examples:
+
+top k frequent
+kth largest
+k closest points
+
+“Repeated min/max extraction”
+
+Use Heap
+
+Examples:
+
+merge k lists
+task scheduler
+meeting rooms
+“Running median”
+
+Use Two Heaps
+
+“Shortest path”
+
+Use Priority Queue
+for Dijkstra's algorithm
+
