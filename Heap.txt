@@ -1,22 +1,52 @@
 Here’s a FAANG-level Heap (Priority Queue) guide in JavaScript, focused on:
 
-
 Heap fundamentals
-
-
-Interview perspective
-
 
 Implementation in JS
 
-
 4 FAANG-level problems
-
 
 Interview insights / patterns
 
-
 This is the kind of understanding expected in interviews at Google / Amazon / Meta / Netflix.
+
+
+
+What is a Heap?
+
+A Heap is a complete binary tree that satisfies the heap property.
+
+Min Heap:
+
+Parent is smaller than children.
+
+        2
+      /   \
+     5     8
+    / \   /
+   10 7 15
+
+Max Heap:
+
+Parent is greater than children.
+
+        20
+      /    \
+    15      10
+   /  \
+  8    7
+
+Array Representation
+
+Heap is stored in an array:
+
+[2, 5, 8, 10, 7, 15]
+
+For index i:
+
+left child = 2*i + 1
+right child = 2*i + 2
+parent = Math.floor((i-1)/2)
 
 
 
