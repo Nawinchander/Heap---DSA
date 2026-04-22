@@ -28,3 +28,12 @@ function mergeKSortedArrays(arrays) {
 }
 
 
+/// Complexity
+
+// 0(N log K)
+
+// Where:
+
+// N = total elements
+// K = number of lists
+
