@@ -10,3 +10,19 @@ Output = 5
 // Keep k largest elements
 // Top = kth largest
 
+function findKthLargest(nums, k) {
+  const heap = new MinHeap();
+
+  for (let num of nums) {
+    heap.insert(num);
+    if (heap.size() > k) heap.extractMin();
+  }
+
+  return heap.peek();
+}
+
+/// Complexity
+
+/// O(n log k)
+
+// Better than sorting O(n log n)
