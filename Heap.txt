@@ -49,4 +49,15 @@ right child = 2*i + 2
 parent = Math.floor((i-1)/2)
 
 
+2. Time Complexities
+Operation	Complexity
+Insert	O(log n)
+Extract Min/Max	O(log n)
+Peek	O(1)
+Build Heap	O(n)
+
+Interviewers love asking why build heap is O(n).
+
+Because bottom-up heapify works on decreasing subtree heights.
+
 
