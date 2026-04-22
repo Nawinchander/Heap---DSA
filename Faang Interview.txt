@@ -1,0 +1,13 @@
+Interview Patterns using Heap
+
+Heaps are heavily used in:
+
+Top K elements
+K-way merge
+Median stream
+Scheduling
+Greedy + Heap
+Graph algorithms
+Dijkstra's algorithm
+Prim's algorithm
+
