@@ -1,0 +1,44 @@
+Common Heap Interview Mistakes
+Mistake 1:
+
+Sorting instead of heap
+
+O(n log n)
+
+Instead:
+
+O(n log k)
+Mistake 2:
+
+Using wrong heap
+
+kth largest → min heap
+kth smallest → max heap
+
+Mistake 3:
+
+Not explaining heap size logic
+
+The interviewer wants:
+
+“Heap size remains k, so insertion/removal is log k.”
+
+Heap Interview Summary
+
+For FAANG interviews, heaps are expected in:
+
+Top K
+Priority Scheduling
+Streaming
+Greedy
+Graphs
+
+Master these patterns:
+
+Min heap for top K
+Two heaps for median
+Heap for scheduling
+Heap for merging K streams
+
+These patterns cover many heap interview problems at Amazon and Meta.
+
