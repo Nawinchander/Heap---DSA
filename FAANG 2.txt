@@ -1,0 +1,49 @@
+Signal 1: “highest priority available”
+Use: Max Heap
+
+Examples:
+reorganize string
+IPO
+task scheduler
+
+
+
+Signal 2: “earliest finishing resource”
+
+Use: Min Heap
+
+Examples: meeting rooms
+CPU allocation
+
+
+
+Signal 3: “best use of limited resources”
+Use: Heap + Greedy
+
+Examples: furthest building
+task scheduling
+
+
+
+Signal 4:
+“smallest range across streams”
+Use: Min Heap + max tracker
+
+
+Why These Are Better Than Standard Questions
+Because these test:
+heap knowledge
+greedy reasoning
+real-time decision making
+optimization under constraints
+
+
+That is what companies like Google care about.
+The standard questions test heap syntax.
+These questions test heap thinking.
+That is the difference between:
+
+LeetCode practice and FAANG interview readiness
+
+
+
