@@ -12,5 +12,25 @@
 
 
 
+function furthestBuilding(heights, bricks, ladders) {
+  const heap = [];
+
+  for (let i = 0; i < heights.length - 1; i++) {
+    let diff = heights[i + 1] - heights[i];
+    if (diff <= 0) continue;
+
+    heap.push(diff);
+    heap.sort((a, b) => a - b);
+
+    if (heap.length > ladders) {
+      bricks -= heap.shift();
+    }
+
+    if (bricks < 0) return i;
+  }
+
+  return heights.length - 1;
+}
+
 
 
