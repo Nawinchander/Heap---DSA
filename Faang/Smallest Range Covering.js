@@ -37,6 +37,10 @@ function smallestRange(nums) {
   return range;
 }
 
+// Interview Pattern: If the problem says: “smallest range / minimum window across K lists”
+
+// Think: Heap + current max tracking
+
 
 
 
