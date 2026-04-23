@@ -33,4 +33,9 @@ function furthestBuilding(heights, bricks, ladders) {
 }
 
 
+// Interview Pattern: If problem says: “Allocate limited best resources optimally”
+
+// Think: Heap + Greedy
+
+
 
