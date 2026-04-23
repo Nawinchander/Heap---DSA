@@ -37,3 +37,10 @@ function findMaxCapital(k, w, profits, capital) {
 
 
 
+// Interview Pattern: If the problem says: “Choose best among currently available options”
+
+// Think: Max Heap
+
+
+
+
