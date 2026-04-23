@@ -41,5 +41,14 @@ function reorganizeString(s) {
 }
 
 
+// Interview Pattern:
+
+// If the problem says:
+
+// “pick highest frequency repeatedly”
+
+// Think:
+
+// Max Heap + Greedy
 
 
