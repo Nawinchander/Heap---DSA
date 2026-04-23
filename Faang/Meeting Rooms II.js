@@ -27,4 +27,9 @@ function minMeetingRooms(intervals) {
 }
 
 
+// Interview Pattern: If the problem says: “Earliest available resource”
+
+// Think: Min Heap
+
+
 
